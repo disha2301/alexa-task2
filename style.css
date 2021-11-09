@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Secular One', sans-serif;
+  }
+  .navbar{
+    margin-top: 15px;
+    height: 8vh;
+    width: 100%;
+    position: sticky;
+  }
+  .nav{
+    position: sticky;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  
+  }
+  .item{
+    list-style: none;
+    margin: 0px 10px;
+    font-size: 1.1rem;
+  }
+  .item a{
+    text-decoration: none;
+    color: black;
+  }
+  .softop{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-right: auto;
+    font-size: 6vh;
+  }
+  .item img{
+    list-style: none;
+    width: 25px;
+    height: 25px;
+  }
+  .search img{
+    width: 20px;
+    height: 25px;
+  }
+  .container{
+    display: flex;
+  }
+  .container-image{
+    width: 100%;
+    background: url("./images/1.jpeg") no-repeat;
+    background-size: cover;
+  }
+  .container-heading{
+    width: 50%;
+    padding: 15px 20px;
+  }
+  .container-heading-text{
+    font-size: 7.5vh;
+    margin-bottom: 20px;
+    margin-top: 80px;
+  }
+  .form{
+    border-width: 0 0 3px;
+    border-color: black;
+        width: 100%;
+        margin: 20px 0px;
+        margin-right: auto;
+  }
+  .btn{
+    border: none;
+      background-color: rgb(255, 217, 0);
+      padding: 15px 15px;
+      font-size: 2.5vh;
+      margin: 10px 10px;
+      margin-right: 400px;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: rgb(250, 193, 7);
+  }
+  #logo{
+    position: relative;
+    display: flex;
+    padding: 3px 600px;
+    height: 777px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/2.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
